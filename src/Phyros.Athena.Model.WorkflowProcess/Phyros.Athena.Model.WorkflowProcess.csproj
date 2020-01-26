@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.1-alpha</Version>
+    <PackageProjectUrl>https://github.com/toadicusrex/Phyros.Athena.Model.WorkflowProcess</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/toadicusrex/Phyros.Athena.Model.WorkflowProcess</RepositoryUrl>
+    <Description>Models describing the Workflow Process.</Description>
+    <Copyright>Phyros, LLC 2019</Copyright>
   </PropertyGroup>
 
 </Project>
