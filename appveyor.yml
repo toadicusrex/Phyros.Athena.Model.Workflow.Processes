@@ -7,7 +7,7 @@ branches:
 
 environment:
   BaseVersion: 1.0.1
-  NugetVersion: "1.0.1-ci$(APPVEYOR_BUILD_NUMBER)"
+  NugetVersion: "1.0.1-alpha"
 
 assembly_info:
   patch: true
