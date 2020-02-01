@@ -7,7 +7,7 @@ branches:
 
 environment:
   BaseVersion: 1.0.1
-  NugetVersion: "1.0.1-alpha"
+  NugetVersion: "1.0.1-ci$(APPVEYOR_BUILD_NUMBER)"
 
 assembly_info:
   patch: true
@@ -33,5 +33,5 @@ build_script:
 after_build:
   # For once the build has completed
 artifacts:
- - path: './src/SpecPhyros.Athena.Model.WorkflowProcess/bin/Release'
+ - path: './src/Phyros.Athena.Model.WorkflowProcess/bin/Release'
    name: NuGet
