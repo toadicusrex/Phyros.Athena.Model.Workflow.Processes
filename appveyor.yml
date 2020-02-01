@@ -33,5 +33,5 @@ build_script:
 after_build:
   # For once the build has completed
 artifacts:
- - path: '\src\SpecPhyros.Athena.Model.WorkflowProcess\bin\Release'
+ - path: './src/SpecPhyros.Athena.Model.WorkflowProcess/bin/Release'
    name: NuGet
