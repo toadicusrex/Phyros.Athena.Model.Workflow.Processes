@@ -10,6 +10,7 @@ environment:
   NugetVersion: "0.1.$(APPVEYOR_BUILD_NUMBER)"
 
 nuget:
+  account_feed: true
   project_feed: true
   disable_publish_on_pr: false
 
