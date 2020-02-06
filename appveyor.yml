@@ -6,8 +6,8 @@ branches:
   - master
 
 environment:
-  BaseVersion: 1.0.1
-  NugetVersion: "1.0.1-ci$(APPVEYOR_BUILD_NUMBER)"
+  BaseVersion: 0.1
+  NugetVersion: "0.1.$(APPVEYOR_BUILD_NUMBER)-alpha"
 
 assembly_info:
   patch: true
@@ -18,7 +18,7 @@ assembly_info:
 
 nuget:
   project_feed: true
-  disable_publish_on_pr: true
+  disable_publish_on_pr: false
 
 configuration: Release
 
