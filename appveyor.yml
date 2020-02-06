@@ -9,13 +9,6 @@ environment:
   BaseVersion: 0.1
   NugetVersion: "0.1.$(APPVEYOR_BUILD_NUMBER)"
 
-assembly_info:
-  patch: true
-  file: 'src\**\AssemblyInfo.*'
-  assembly_version: "$(BaseVersion)"
-  assembly_file_version: "$(BaseVersion)"
-  assembly_informational_version: "$(NugetVersion)"
-
 nuget:
   project_feed: true
   disable_publish_on_pr: false
