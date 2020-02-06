@@ -20,7 +20,7 @@ nuget:
   project_feed: true
   disable_publish_on_pr: false
 
-configuration: Release
+#configuration: Release
 
 before_build:
   # Display .NET Core version
@@ -28,7 +28,6 @@ before_build:
   # Display minimal restore text
   - cmd: dotnet restore ./src/Phyros.Athena.Model.WorkflowProcess/Phyros.Athena.Model.WorkflowProcess.csproj --verbosity m
 build_script:
-  # output will be in ./src/bin/debug/netcoreapp1.1/publish
   - cmd: dotnet publish ./src/Phyros.Athena.Model.WorkflowProcess/Phyros.Athena.Model.WorkflowProcess.csproj
 after_build:
   # For once the build has completed
