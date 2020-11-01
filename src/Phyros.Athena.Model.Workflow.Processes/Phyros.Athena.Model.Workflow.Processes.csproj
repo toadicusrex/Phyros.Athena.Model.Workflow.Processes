@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>0.1.1</Version>
+    <PackageProjectUrl>https://github.com/toadicusrex/Phyros.Athena.Model.WorkflowProcess</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/toadicusrex/Phyros.Athena.Model.WorkflowProcess</RepositoryUrl>
+    <Description>Models describing the Workflow Process.</Description>
+    <Copyright>Phyros, LLC 2019</Copyright>
+    <AssemblyName>Phyros.Athena.Model.Workflow.Processes</AssemblyName>
+    <RootNamespace>Phyros.Athena.Model.Workflow.Processes</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Phyros.Athena.Model.Workflow.EventTriggers" Version="0.1.11-alpha" />
+  </ItemGroup>
+
+</Project>

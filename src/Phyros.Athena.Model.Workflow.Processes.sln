@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.Athena.Model.Workflow.Processes", "Phyros.Athena.Model.Workflow.Processes\Phyros.Athena.Model.Workflow.Processes.csproj", "{F6C834A7-0169-4CBD-9F4C-EAEE48439765}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "..\build\_build.csproj", "{C41559D5-21A1-4037-9B0F-17D8C3735B1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C834A7-0169-4CBD-9F4C-EAEE48439765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C834A7-0169-4CBD-9F4C-EAEE48439765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C834A7-0169-4CBD-9F4C-EAEE48439765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C834A7-0169-4CBD-9F4C-EAEE48439765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41559D5-21A1-4037-9B0F-17D8C3735B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41559D5-21A1-4037-9B0F-17D8C3735B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16102B1D-19AC-4738-AE03-8DD1054AC474}
+	EndGlobalSection
+EndGlobal
