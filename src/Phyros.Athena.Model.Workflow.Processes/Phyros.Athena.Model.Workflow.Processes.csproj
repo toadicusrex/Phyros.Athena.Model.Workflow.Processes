@@ -1,15 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
-    <PackageProjectUrl>https://github.com/toadicusrex/Phyros.Athena.Model.WorkflowProcess</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/toadicusrex/Phyros.Athena.Model.WorkflowProcess</RepositoryUrl>
-    <Description>Models describing the Workflow Process.</Description>
-    <Copyright>Phyros, LLC 2019</Copyright>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Phyros.Athena.Model.Workflow.Processes</AssemblyName>
-    <RootNamespace>Phyros.Athena.Model.Workflow.Processes</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
